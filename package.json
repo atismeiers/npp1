@@ -1,0 +1,36 @@
+{
+  "name": "nordpool-ifttt",
+  "version": "0.4.0",
+  "description": "Check Nordpool energy prices and set IFTTT triggers based on your limits",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 startOrRestart pm2.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelmr/nordpool-ifttt.git"
+  },
+  "keywords": [
+    "Nordpool",
+    "energy",
+    "price",
+    "IFTTT",
+    "electricity"
+  ],
+  "author": "Samuel Rinnetmaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelmr/nordpool-ifttt/issues"
+  },
+  "homepage": "https://github.com/samuelmr/nordpool-ifttt#readme",
+  "dependencies": {
+    "findstreak": "^1.1.1",
+    "moment-timezone": "^0.5.33",
+    "node-schedule": "^2.0.0",
+    "nordpool": "^4.0.0",
+    "pm2": "^5.1.2",
+    "request": "^2.88.2"
+  }
+}
